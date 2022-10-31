@@ -1,0 +1,51 @@
+.t_bat{
+    color:blueviolet;
+}
+.t_ball{
+    color:mediumvioletred;
+}
+.team_name{
+    color:crimson
+}
+.right_div{
+    display: block;
+}
+.section{
+    display: flex;
+    text-align: center;
+    margin: 0px , auto;
+}
+.image_div{
+    width:40%;
+}
+.image{
+    width:100%;
+}
+.detail{
+    padding:8px;
+}
+.player_list{
+   margin-top: 500px;
+    padding-top: 10px;
+   display: flex;
+    flex-wrap: wrap;
+    
+    justify-content:space-evenly;
+   
+    margin-top: 20px;
+    width:100%;
+}
+.player_img{
+    width:100px;
+    cursor: pointer;
+}
+.player_div{
+    width:15%;
+    box-shadow: 5px 5px 5px grey;
+    margin:0px,10px;
+    padding:10px;
+}
+.player_div h1{
+    font-size: 20px;
+    color:burlywood;
+}

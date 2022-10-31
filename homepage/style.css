@@ -1,0 +1,41 @@
+.main_div{
+    Display :grid;
+    row-gap: 2;
+    grid-template-columns: auto auto auto;
+   
+    align-items: center;
+
+}
+header{
+    background-color: cornflowerblue;
+    color:antiquewhite;
+    padding: 16px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+}
+h1{
+    font-size: 72px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color:cadetblue;
+    text-align: center;
+}
+.team_div{
+    display :flex;
+    text-align: center;
+    align-items: center;
+    width:300px;
+    height:400px;
+    box-shadow: 5px 5px 5px grey;
+    background-color:aliceblue;
+    margin:10px;
+}
+
+.team_img{
+    padding: 10px;
+    width:250px;
+    height: 80%;
+}
